@@ -6,11 +6,21 @@
 }
 body{
     margin:0;
-    line-height:1.4
+    line-height:1.4;
+}
+
+@media (max-width:450px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 .container{
     max-width:var(--maxw);
-    margin:32px auto;padding:24px
+    margin:32px auto;
+    padding:24px
 }
 .title{
     font-size:28px;
