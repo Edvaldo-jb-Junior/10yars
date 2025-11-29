@@ -29,15 +29,7 @@
       display:none;
       
     }
-    @media (max-width:500px){
-      .carousel{
-        height:300px;
-      }
-      .carousel img{
-        height:300px;
-      }
-      
-    }
+   
     .carousel img.active{
       display:block;
     }
@@ -94,4 +86,14 @@
         text-decoration: none;
         background-color: #D97706;
         color: white;;
+    }
+    
+     @media (max-width:500px){
+      .carousel{
+        height:300px;
+      }
+      .carousel img{
+        height:300px;
+      }
+      
     }
