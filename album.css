@@ -91,11 +91,10 @@
      @media (max-width:500px){
       .carousel{
         height:260px;
-        width: 366px;
-        margin-left: -10px;
       }
       .carousel img{
         height: 280px;
+        padding-left: -10px;
       }
       
     }
