@@ -142,7 +142,7 @@ body {
     .background-image {
         position: absolute;
         height: 100vh;
-        margin-top: -700px;
+        margin-top: -800px;
     }
     
     .hero {
@@ -163,12 +163,13 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
+        margin-left: 5px;
     }
     
     .hero-photo {
         height: 350px;
     }
     .declaracao{
-      
+      margin-left: -34px;
     }
 }
